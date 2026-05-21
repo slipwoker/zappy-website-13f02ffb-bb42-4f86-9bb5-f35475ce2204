@@ -1,0 +1,102 @@
+# עולם הבריכות — Generative Engine Optimization Map
+
+> A swimming pool retail store offering products and services related to swimming pools. The business likely sells pool equipment, accessories, chemicals, and possibly offers installation or maintenance services.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+חולמים על בריכת שחייה פרטית? עולם הבריכות מציע מחירי leisure pools תחרותיים, ציוד מקצועי ורובוטים חכמים לבריכה. הפכו את החלום למציאות עוד היום!
+
+### שירותים ופתרונות
+https://example.com/services
+בניית בריכת שחייה פרטית, התקנת רובוטים לבריכה, תחזוקה שוטפת וציוד מתקדם — כל שירותי הבריכה במקום אחד. גלו את עלות leisure pools וקבלו הצעת מחיר מותאמת אישית!
+
+### אודות
+https://example.com/about
+מי עומד מאחורי עולם הבריכות? צוות מומחים עם שנות ניסיון בתחום leisure pools, מחויבים להביא לכם את הטכנולוגיה המתקדמת ביותר ואת השירות החם והאמין ביותר בישראל.
+
+### צור קשר
+https://example.com/contact
+רוצים לדעת כמה עולה בניית בריכת שחייה פרטית? צרו קשר עם מומחי עולם הבריכות עכשיו וקבלו ייעוץ חינם, מחירי leisure pools שקופים ומענה מהיר לכל שאלה!
+
+### Products
+https://example.com/products
+המוצרים שלנו - עולם הבריכות
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - עולם הבריכות
+
+### Category
+https://example.com/category/:slug
+מוצרים - עולם הבריכות
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עולם הבריכות
+A swimming pool retail store offering products and services related to swimming pools. The business likely sells pool equipment, accessories, chemicals, and possibly offers installation or maintenance services.
+
+## Target Audience
+- בעלי בתים עם משפחות
+- בעלי בתים יוקרתיים
+- מלונות ונופשונים
+- מועדוני כושר ובריאות
+- יזמי נדל"ן
+
+## Industry
+Swimming Pools & Leisure
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
