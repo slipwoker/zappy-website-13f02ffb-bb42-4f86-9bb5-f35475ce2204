@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "13f02ffb-bb42-4f86-9bb5-f35475ce2204";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "13f02ffb-bb42-4f86-9bb5-f35475ce2204";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -986,19 +986,19 @@
 
 </section>
 
-<section class="contact-visit-section" data-layout-spec="צור קשר-visit" dir="rtl">
+<section class="contact-visit-section" data-layout-spec="צור קשר-visit" dir="rtl" id="contact-visit-section">
   <div class="contact-visit-container">
 
     <!-- Image Column -->
     <div class="contact-visit-image-col">
       <div class="contact-visit-image-wrapper">
-        <img loading="eager" fetchpriority="high" data-placeholder="contact-visit-image-1" data-context="Warm exterior storefront of a premium swimming pool retail showroom in Israel. Large glass windows display pool equipment and accessories. The facade has a warm terracotta and stone aesthetic with lush greenery and a welcoming entrance. Sunwashed afternoon light, inviting and professional atmosphere, lifestyle photography style." width="600" height="720" src="/assets/site-contact-visit-image-1.webp" alt="חנות עולם הבריכות - חזית המרכז">
+        <img loading="eager" fetchpriority="high" data-placeholder="contact-visit-image-1" data-context="Warm exterior storefront of a premium swimming pool retail showroom in Israel. Large glass windows display pool equipment and accessories. The facade has a warm terracotta and stone aesthetic with lush greenery and a welcoming entrance. Sunwashed afternoon light, inviting and professional atmosphere, lifestyle photography style." width="600" height="720" src="/assets/site-contact-visit-image-1.webp" alt="חנות עולם הבריכות - חזית המרכז" data-element-type="image" data-element-id="img-1779324827649-2n2n1v2dp" style="">
         <!-- Decorative accent badge -->
         <div class="contact-visit-badge" aria-hidden="true">
           <svg data-no-icon-edit="true" aria-hidden="true" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="40" cy="40" r="38" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 4"></circle>
           </svg>
-          <span class="contact-visit-badge-text">מרכז<br>תצוגה</span>
+          <span class="contact-visit-badge-text" style="color: rgb(46, 42, 38) !important;">מרכז<br>תצוגה</span>
         </div>
       </div>
     </div>
@@ -1006,7 +1006,7 @@
     <!-- Content Column -->
     <div class="contact-visit-content-col">
       <div class="contact-visit-eyebrow">בקרו אותנו</div>
-      <h2 class="contact-visit-heading">מרכז התצוגה שלנו<br><span class="contact-visit-heading-accent">פתוח לכם</span></h2>
+      <h2 class="contact-visit-heading">מרכז התצוגה שלנו<br><span class="contact-visit-heading-accent" style="color: rgb(46, 42, 38) !important;">פתוח לכם</span></h2>
 
       <!-- Decorative wave underline -->
       <div class="contact-visit-wave-divider" aria-hidden="true">
@@ -1016,13 +1016,13 @@
         </svg>
       </div>
 
-      <p class="contact-visit-intro">אנחנו מזמינים אתכם לבקר במרכז התצוגה שלנו ולגלות את עולם הבריכות מקרוב. הצוות המקצועי שלנו ישמח לייעץ, להדגים ולעזור לכם לבחור את הציוד המושלם לבריכה שלכם — בין אם מדובר ברובוטים לבריכה, ציוד טיפול במים, אביזרים ועוד.</p>
+      <p class="contact-visit-intro" style="color: rgb(46, 42, 38) !important;">אנחנו מזמינים אתכם לבקר במרכז התצוגה שלנו ולגלות את עולם הבריכות מקרוב. הצוות המקצועי שלנו ישמח לייעץ, להדגים ולעזור לכם לבחור את הציוד המושלם לבריכה שלכם — בין אם מדובר ברובוטים לבריכה, ציוד טיפול במים, אביזרים ועוד.</p>
 
       <!-- Info Blocks -->
       <div class="contact-visit-info-blocks">
 
         <!-- Block 1: Showroom Visit -->
-        <div class="contact-visit-info-card">
+        <div class="contact-visit-info-card" data-grid-item-index="0">
           <div class="contact-visit-info-icon-wrap">
             <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M14 3C9.03 3 5 7.03 5 12c0 6.75 9 15 9 15s9-8.25 9-15c0-4.97-4.03-9-9-9zm0 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="var(--primary)"></path>
@@ -1031,8 +1031,8 @@
           <div class="contact-visit-info-body">
             <h3 class="contact-visit-info-title">ביקור במרכז התצוגה</h3>
             <p class="contact-visit-info-text">מרכז התצוגה שלנו מציג מגוון רחב של מוצרים ופתרונות לבריכות שחייה לבתים פרטיים. תוכלו לראות, לגעת ולהתרשם מהמוצרים לפני הרכישה. אנחנו ממליצים להגיע עם שאלות — אנחנו כאן בשבילכם.</p>
-            <div class="contact-visit-detail-row">
-              <span class="contact-visit-detail-label">כתובת:</span>
+            <div class="contact-visit-detail-row" style="">
+              <span class="contact-visit-detail-label">כתובת: טבריה&nbsp;</span>
               
             </div>
             <div class="contact-visit-detail-row">
@@ -1044,7 +1044,7 @@
         </div>
 
         <!-- Block 2: Service Area -->
-        <div class="contact-visit-info-card">
+        <div class="contact-visit-info-card" data-grid-item-index="1">
           <div class="contact-visit-info-icon-wrap">
             <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <circle cx="14" cy="14" r="10" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
@@ -1065,7 +1065,7 @@
         </div>
 
         <!-- Block 3: Response Approach -->
-        <div class="contact-visit-info-card">
+        <div class="contact-visit-info-card" data-grid-item-index="2">
           <div class="contact-visit-info-icon-wrap">
             <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M5 5h18a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H8l-5 4V7a2 2 0 0 1 2-2z" stroke="var(--primary)" stroke-width="2" fill="none" stroke-linejoin="round"></path>
